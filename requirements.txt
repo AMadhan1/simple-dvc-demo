@@ -1,4 +1,12 @@
+# local package install
+pip install -e
+
+# third party install
 dvc
 dvc[gdrive]
 sklearn
 pandas
+pytest
+tox
+flake8
+flask
